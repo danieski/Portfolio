@@ -1,0 +1,29 @@
+#container{
+    background-color: bisque;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    width: min(100% - 2rem, 1000px);
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+}
+h2{
+
+    font-size: 15px;
+}
+p{
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+.contact{
+    margin-left: 20px;
+}
+img{
+    width: 300px;
+    height: auto;
+}
